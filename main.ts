@@ -67,7 +67,7 @@ while (loop) {
       {
          name: "continueLoop",
          type: "confirm",
-         message: chalk.bgWhiteBright.inverse(
+         message: chalk.blue(
             "Do you want to convert another conversation"
          ),
       },
